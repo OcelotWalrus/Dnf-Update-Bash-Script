@@ -28,7 +28,7 @@ And you should get an output like this:
     -restart: restart your system after executing option (alias: -reboot)
     -shutdown: shutdown your system after executing option (alias: -poweroff)
 
-## Syntax Examples
+Here is the expected syntax for the bash script:
 
     sh update.sh (option) (first parameter) (second parameter)
 
@@ -36,7 +36,7 @@ The option is what action the script will execute at first, this fied is not opt
 
 The first and seconds parameters are optional entries that will be executed in order (the first parameter will be executed after the option and the second parameter will be executed after the first parameter.)
 
-Here is some examples of possible syntax:
+## Syntax Examples
 
 ### 1.
 
