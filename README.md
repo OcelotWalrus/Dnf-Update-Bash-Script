@@ -1,7 +1,9 @@
-# Dnf-Update-Script
-A custom dnf update bash script i made to update your system easier, with differents options and parameters.
+# Dnf Update Script
 
-## using the script:
+A custom dnf update bash script i made to update your system easier, with differents options and parameters. It actually not only update your system and can do other severals things.
+
+## Using The Script
+
 Simply run the update.sh script:
 
     chmod +x update.sh
@@ -25,6 +27,31 @@ And you should get an output like this:
     -reboot: reboot your system after executing option (alias: -restart)
     -restart: restart your system after executing option (alias: -reboot)
     -shutdown: shutdown your system after executing option (alias: -poweroff)
-Here is the expected syntax:
-    sh update.sh *option* *first parameter* *second parameter*
-   
+
+## Syntax Examples
+
+    sh update.sh (option) (first parameter) (second parameter)
+
+The option is what action the script will execute at first, this fied is not optional.
+
+The first and seconds parameters are optional entries that will be executed in order (the first parameter will be executed after the option and the second parameter will be executed after the first parameter.)
+
+Here is some examples of possible syntax:
+
+### 1.
+
+    sh update.sh upgrade -reboot
+
+This syntax will at first, upgrade my system, then, reboot it to apply upgrades.
+
+### 2.
+
+    sh update.sh autoremove -exit
+
+This syntax will removed all unneeded packages that were originally installed as dependencies then it will exit the terminal window.
+
+### 3.
+
+    sh update.sh check -clean
+
+The folowwing syntax will check for avaible updates and clean cashed data.
