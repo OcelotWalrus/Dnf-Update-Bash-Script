@@ -61,13 +61,13 @@ if [ "$parameter" == "-exit" ]; then
 	kill -9 $PPID
 fi
 
-if [ "$parameter" == "-poweroff " ] || [ "$parameter" == "-shutdown " ]; then
+if [ "$parameter" == "-poweroff" ] || [ "$parameter" == "-shutdown" ]; then
 	echo "Shutingdown your system in 15 seconds..."
 	sleep 15
 	sudo poweroff
 fi
 
-if [ "$parameter" == "-reboot " ] || [ "$parameter" == "-restart " ]; then
+if [ "$parameter" == "-reboot" ] || [ "$parameter" == "-restart" ]; then
 	echo "Rebooting your system in 15 seconds..."
 	sleep 15
 	sudo reboot
@@ -85,25 +85,25 @@ if [ "$parameter2" == "-exit" ]; then
 	kill -9 $PPID
 fi
 
-if [ "$parameter2" == "-poweroff " ]; then
+if [ "$parameter2" == "-poweroff" ]; then
 	echo "Shutingdown your system in 15 seconds..."
 	sleep 15
 	sudo poweroff
 fi
 
-if [ "$parameter2" == "-reboot " ]; then
+if [ "$parameter2" == "-reboot" ]; then
 	echo "Rebooting your system in 15 seconds..."
 	sleep 15
 	sudo reboot
 fi
 
-if [ "$parameter2" == "-restart " ]; then
+if [ "$parameter2" == "-restart" ]; then
 	echo "Restarting your system in 15 seconds..."
 	sleep 15
 	sudo reboot
 fi
 
-if [ "$parameter2" == "-shutdown " ]; then
+if [ "$parameter2" == "-shutdown" ]; then
 	echo "Shutingdown your system in 15 seconds..."
 	sleep 15
 	sudo shutdown
