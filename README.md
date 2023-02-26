@@ -52,6 +52,6 @@ This syntax will removed all unneeded packages that were originally installed as
 
 ### 3.
 
-    sh update.sh check -clean
+    sh update.sh check -clean -exit
 
-The folowwing syntax will check for avaible updates and clean cashed data.
+The folowwing syntax will check for avaible updates ,clean cashed data and exit terminal window.
