@@ -1,6 +1,6 @@
 # Dnf Update Script
 
-A custom dnf update bash script i made to update your system easier, with differents options and parameters. It actually not only update your system and can do other severals things.
+A custom dnf update bash script i made to update your system easier, with differents options and parameters. It actually not only update your system and can do other severals things. Note that it is still in progress.
 
 ## Using The Script
 
