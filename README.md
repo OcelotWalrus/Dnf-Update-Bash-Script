@@ -1,6 +1,6 @@
 # Dnf Update Script
 
-A custom dnf update bash script i made to update your system easier, with differents options and parameters. It actually not only update your system and can do other severals things. Note that it is still in progress.
+A custom dnf update bash script i made to update your system easier, with different options and parameters. It actually not only update your system and can do other severals things.
 
 ## Using The Script
 
@@ -23,7 +23,7 @@ And you should get an output like this:
  
     -clean: clean cashed data after executing option
     -exit: close terminal window after executing option
-    -poweroff: poweroff your system after executing option (alias: -shutdown)
+    -poweroff: power off your system after executing option (alias: -shutdown)
     -reboot: reboot your system after executing option (alias: -restart)
     -restart: restart your system after executing option (alias: -reboot)
     -shutdown: shutdown your system after executing option (alias: -poweroff)
@@ -52,6 +52,6 @@ This syntax will removed all unneeded packages that were originally installed as
 
 ### 3.
 
-    sh update.sh check -clean -exit
+    sh update.sh check -clean
 
-The folowwing syntax will check for avaible updates ,clean cashed data and exit terminal window.
+The following syntax will check for new updates and clean cashed data.
